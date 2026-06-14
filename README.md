@@ -2,22 +2,22 @@
 
 ## Overview
 
-AI Study Assistant is a web application built with Python and Flask that is designed to help students study more effectively.
+AI Study Assistant is a web application built with Python and Flask.
 
-This project is currently in development and serves as my learning journey in web development, Python, and artificial intelligence.
+The goal of this project is to help students study more efficiently by providing AI-powered tools such as note summarization, quiz generation, and personalized learning features.
 
-The long-term goal is to create a study tool that can summarize notes, generate quizzes, and provide AI-powered learning assistance.
+This project is currently in development and serves as a long-term learning project focused on web development, artificial intelligence, and software engineering.
 
 ---
 
 ## Current Features
 
-* Flask web server
+* Flask web application
 * HTML user interface
 * CSS styling
 * Template rendering with Flask
 * Static file support
-* Project structure following Flask conventions
+* Organized project structure
 
 ---
 
@@ -33,26 +33,29 @@ The long-term goal is to create a study tool that can summarize notes, generate 
 * HTML
 * CSS
 
-### Development Tools
+### Tools
 
 * Visual Studio Code
-* Git
 * GitHub
 
 ---
 
 ## Project Structure
 
-```text
 ai-study-assistant/
-│
+
 ├── app.py
-│
+
+├── README.md
+
 ├── templates/
+
 │   └── index.html
-│
+
 └── static/
-    └── style.css
+
+```
+└── style.css
 ```
 
 ---
@@ -63,18 +66,18 @@ ai-study-assistant/
 
 Completed:
 
-* Initial project setup
-* Flask installation and configuration
-* First webpage
+* Flask setup
+* Basic website interface
 * HTML templates
 * CSS styling
 * Flask routing
+* Static file configuration
 
-Currently learning:
+Currently Working On:
 
-* Forms
-* User input handling
-* Flask request methods
+* User input forms
+* Form processing
+* Dynamic page content
 
 ---
 
@@ -82,9 +85,9 @@ Currently learning:
 
 ### Version 0.2
 
-* Text input form
-* Submit button functionality
-* User input processing
+* Note input form
+* Text processing
+* Improved user interface
 
 ### Version 0.3
 
@@ -94,29 +97,30 @@ Currently learning:
 ### Version 0.4
 
 * Quiz generation
-* Question creation from notes
+* Interactive study tools
 
 ### Future Goals
 
 * AI-powered summaries
 * AI-generated quizzes
 * User accounts
-* Progress tracking
 * Database integration
+* Progress tracking
+* Personalized learning recommendations
 
 ---
 
 ## Why I Built This Project
 
-I started this project to improve my skills in:
+I created this project to improve my skills in:
 
 * Python programming
-* Flask web development
-* HTML and CSS
-* Software development practices
-* Artificial intelligence applications
+* Flask development
+* Web development
+* Artificial intelligence
+* Software engineering
 
-This project is being developed as a long-term learning project and portfolio piece.
+This project is part of my journey toward building more advanced AI applications and learning modern software development practices.
 
 ---
 
@@ -124,4 +128,4 @@ This project is being developed as a long-term learning project and portfolio pi
 
 Deniz Ayalp
 
-First version created in 2026.
+Created in 2026.
