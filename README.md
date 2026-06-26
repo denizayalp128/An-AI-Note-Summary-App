@@ -2,77 +2,11 @@
 
 ## Overview
 
-AI Study Assistant is a web application built with Python and Flask.
+AI Study Assistant is a web application built with Python and Flask that helps students study more efficiently using artificial intelligence.
 
-The goal of this project is to help students study more efficiently through AI-powered tools such as note summarization, quiz generation, and personalized learning features.
+Users can enter study notes through a modern web interface and receive AI-generated summaries powered by a locally running language model. The project focuses on learning full-stack web development while integrating practical AI features.
 
-This project is currently in development and serves as a long-term learning project focused on web development, artificial intelligence, and software engineering.
-
----
-
-## Current Features
-
-### User Interface
-
-* Responsive web interface built with HTML and CSS
-* Clean and organized layout
-* Text area for note submission
-* Character limit for user input
-* Character count display
-
-### Flask Functionality
-
-* Flask web server
-* Routing and template rendering
-* Form handling with POST requests
-* User note submission
-* Dynamic content rendering
-* User notes remain in the text area after submission
-
-### Development Features
-
-* Organized project structure
-* Static file support
-* Template rendering with Jinja2
-* GitHub version control
-
----
-
-## Technologies Used
-
-### Backend
-
-* Python
-* Flask
-
-### Frontend
-
-* HTML
-* CSS
-* Jinja2 Templates
-
-### Tools
-
-* Visual Studio Code
-* GitHub
-
----
-
-## Project Structure
-
-ai-study-assistant/
-
-├── app.py
-
-├── README.md
-
-├── templates/
-
-│ └── index.html
-
-└── static/
-
-    └── style.css
+This project serves as a long-term learning experience in Python, Flask, artificial intelligence, and software engineering.
 
 ---
 
@@ -100,71 +34,157 @@ Completed:
 * Character count display
 * Persistent text area content after submission
 
-Current Status:
+---
 
-* Working Flask application capable of accepting and displaying user notes
+**Current Version:** **1.0**
+
+---
+
+## Features
+
+### AI Features
+
+* AI-powered note summarization
+* Local AI integration using LM Studio
+* Fast offline AI responses
+* Custom AI prompts for summarization
+
+### Web Features
+
+* Flask web application
+* Responsive user interface
+* Note input form
+* Character counter
+* Character limit validation
+* Dynamic result display
+* Form handling with Flask
+
+### Interface
+
+* Modern two-panel layout
+* Clean and responsive design
+* Scrollable AI response panel
+* Improved user experience
+
+---
+
+## Technologies Used
+
+### Backend
+
+* Python
+* Flask
+* Requests
+
+### Frontend
+
+* HTML
+* CSS
+
+### Artificial Intelligence
+
+* LM Studio
+* Gemma 1.1 2B Instruct (GGUF)
+
+### Tools
+
+* Visual Studio Code
+* Git
+* GitHub
+
+---
+
+## Project Structure
+
+```text
+ai-study-assistant/
+
+├── app.py
+├── README.md
+├── templates/
+│   └── index.html
+└── static/
+    └── style.css
+```
+
+---
+
+## Current Functionality
+
+* Accepts user study notes
+* Sends notes to a local AI model
+* Generates AI summaries
+* Displays summarized output
+* Counts characters entered
+* Prevents overly large submissions
+* Preserves user input after submission
 
 ---
 
 ## Planned Features
 
-### Version 0.3 - AI Integration
+### Version 1.1
 
-Planned:
+* AI quiz generation
+* Multiple AI study modes
+* Better prompt selection
 
-* AI API integration
-* Note summarization
+### Version 1.2
+
+* Flashcard generation
 * Key point extraction
-* Summary generation
+* Vocabulary assistance
 
-### Version 0.4 - Study Tools
+### Future Versions
 
-Planned:
-
-* Quiz generation
-* Practice questions
-* Study guide creation
-* Interactive learning tools
-
-### Version 0.5 - Advanced Features
-
-Planned:
-
-* Multiple summary styles
-* Export functionality
-* Improved note organization
-* Enhanced user experience
+* User accounts
+* SQLite database integration
+* Progress tracking
+* Study history
+* Personalized AI recommendations
+* Export summaries
+* Dark mode
 
 ---
 
-## Learning Goals
+## Learning Objectives
 
-This project is helping me improve my skills in:
+This project has helped me learn:
 
 * Python programming
-* Flask development
-* Web development
-* Software engineering
-* Artificial intelligence integration
-* Project planning
-* GitHub workflow
+* Flask web development
+* Frontend and backend communication
+* REST API requests
+* JSON parsing
+* AI model integration
+* Form handling
+* Debugging techniques
+* User interface design
+* Software engineering principles
 
 ---
 
-## Future Vision
+## Why I Built This Project
 
-The long-term goal is to transform this project into a complete AI-powered study assistant capable of:
+I built AI Study Assistant to strengthen my programming skills by creating a practical real-world application instead of only following tutorials.
 
-* Summarizing notes
-* Generating quizzes
-* Creating study guides
-* Supporting active learning
-* Helping students review information more efficiently
+The project combines web development and artificial intelligence while helping me understand how modern AI-powered applications are designed and developed.
+
+---
+
+## Future Goals
+
+This project will continue to evolve as I learn new technologies. Planned improvements include additional AI study tools, database integration, authentication, and more advanced learning features.
 
 ---
 
 ## Author
 
-Deniz Ayalp
+**Deniz Ayalp**
+
+Created in 2026.
+
+**Current Status:** Version 1.0 🚀
+
 
 Created in 2026.
