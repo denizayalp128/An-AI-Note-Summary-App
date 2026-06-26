@@ -1,6 +1,5 @@
 # AI Study Assistant
 
-## Screenshot
 
 ![AI Study Assistant](images/homepage.png)
 
