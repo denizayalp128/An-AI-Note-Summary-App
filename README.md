@@ -1,6 +1,7 @@
 # AI Study Assistant
 ## HomePage
 ![AI Study Assistant](images/homepage.png)
+## AI Response Example
 ## After Clicking The Simple Button
 ![AI Study Assistant](images/simpleresult.png)
 ## Overview
