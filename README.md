@@ -1,7 +1,7 @@
 # AI Study Assistant
-HomePage
+## HomePage
 ![AI Study Assistant](images/homepage.png)
-After Clicking The Simple Button
+## After Clicking The Simple Button
 ![AI Study Assistant](images/simpleresult.png)
 ## Overview
 
