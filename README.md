@@ -1,7 +1,8 @@
 # AI Study Assistant
-
+HomePage
 ![AI Study Assistant](images/homepage.png)
-
+After Clicking The Simple Button
+![AI Study Assistant](images/simpleresult.png)
 ## Overview
 
 AI Study Assistant is a web application built with Python and Flask that helps students study more efficiently using artificial intelligence.
