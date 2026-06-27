@@ -17,18 +17,22 @@
         <div class="panel input-panel">
             <h3>Enter Your Notes Here</h3>
             <textarea  name="notes" placeholder="Type or paste your text here...">{{ notes }}</textarea>
-            <input type="submit" value="Process Text" class="action-btn">
+            <input name="action" value="Summarize" type="submit" class="action-btn">
+            <input name="action" value="Generate A Question" type="submit" class="action-btn">
+            <input name="action" value="Simple" type="submit" class="action-btn">
+            <input name="action" value="Key Concepts" type="submit" class="action-btn">
+            <input name="action" value="Anki" type="submit" class="action-btn">
         </div>
 
         <div class="panel output-panel">
-            <h3>Result</h3>
+            <h4>Result</h4>
             <div class="result-display">
                 <p class="placeholder-text">Your processed result will appear here...</p>
                 <p>{{ summary }}</p>
                 <h2>Your Note</h2>
 
                 <p>{{ notes }}</p>
-                <p>Character Count: {{lenghtofnotes}}/2500</p>
+                <p>Character Count: {{lengthofnotes}}/2500</p>
             </div>
         </div>
     </div>
